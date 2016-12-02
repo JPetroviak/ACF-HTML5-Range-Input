@@ -1,0 +1,14 @@
+# OSX
+.DS_Store
+Thumbs.db
+
+# SublimeText
+*.sublime-workspace
+*sftp-config.json
+
+# CodeKit
+*.codekit
+*.codekit3
+
+# Application Files
+.sass-cache
