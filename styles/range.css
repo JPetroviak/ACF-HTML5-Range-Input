@@ -15,9 +15,9 @@
 }
 
 .range::-webkit-slider-runnable-track {
-  background-color: transparent;
+  background-color: #efefef;
   border: 1px solid #CECED2;
-  border-radius: 4px;
+  border-radius: 0;
   cursor: pointer;
   height: 20px;
   -webkit-transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out;
@@ -26,9 +26,9 @@
 }
 
 .range::-moz-range-track {
-  background-color: transparent;
+  background-color: #efefef;
   border: 1px solid #CECED2;
-  border-radius: 4px;
+  border-radius: 0;
   cursor: pointer;
   height: 20px;
   -webkit-transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out;
@@ -37,9 +37,9 @@
 }
 
 .range::-ms-track {
-  background-color: transparent;
+  background-color: #efefef;
   border: 1px solid #CECED2;
-  border-radius: 4px;
+  border-radius: 0;
   cursor: pointer;
   height: 20px;
   -webkit-transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out;
@@ -66,9 +66,9 @@
 .range::-webkit-slider-thumb {
   -webkit-appearance: none;
           appearance: none;
-  background-color: #CECED2;
+  background-color: #0085ba;
   border: 1px solid #8E8E93;
-  border-radius: 4px;
+  border-radius: 0;
   cursor: pointer;
   height: 20px;
   margin-top: -1px;
@@ -80,9 +80,9 @@
 .range::-moz-range-thumb {
   -moz-appearance: none;
        appearance: none;
-  background-color: #CECED2;
+  background-color: #0085ba;
   border: 1px solid #8E8E93;
-  border-radius: 4px;
+  border-radius: 0;
   cursor: pointer;
   height: 20px;
   margin-top: -1px;
@@ -93,9 +93,9 @@
 
 .range::-ms-thumb {
   appearance: none;
-  background-color: #CECED2;
+  background-color: #0085ba;
   border: 1px solid #8E8E93;
-  border-radius: 4px;
+  border-radius: 0;
   cursor: pointer;
   height: 20px;
   margin-top: -1px;
