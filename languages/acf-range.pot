@@ -1,0 +1,67 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-03 08:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: range.php:6
+msgid "Range"
+msgstr ""
+
+#: range.php:20
+msgid "Default Value"
+msgstr ""
+
+#: range.php:21
+msgid "Appears when creating a new post"
+msgstr ""
+
+#: range.php:27
+msgid "Minimum Value"
+msgstr ""
+
+#: range.php:33
+msgid "Maximum Value"
+msgstr ""
+
+#: range.php:39
+msgid "Step Size"
+msgstr ""
+
+#: range.php:45
+msgid "Units"
+msgstr ""
+
+#: range.php:46
+msgid "Enter the units to measure by"
+msgstr ""
+
+#. Name of the plugin
+msgid "ACF HTML5 Range Input"
+msgstr ""
+
+#. Description of the plugin
+msgid "HTML5 range input for Advanced Custom Fields"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/prisoner2019/ACF-HTML5-Range-Input"
+msgstr ""
+
+#. Author of the plugin
+msgid "John Petroviak"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.johnpetroviak.com"
+msgstr ""
