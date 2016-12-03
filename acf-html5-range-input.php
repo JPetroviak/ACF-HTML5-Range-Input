@@ -10,6 +10,8 @@ Author URI: http://www.johnpetroviak.com
 License: MIT
 */
 
+load_plugin_textdomain( 'acf-range', false, dirname( plugin_basename(__FILE__) ) . '/languages/' );
+
 class acf_field_range_plugin
 {
     function __construct()
