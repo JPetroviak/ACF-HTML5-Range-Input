@@ -1,6 +1,7 @@
 <?php
 class acf_field_range extends acf_field {
-	function __construct() {
+	function __construct() {		
+		$this->version = '1.0.1';
 		$this->name = 'range';
 		$this->label = __('Range', 'acf-range');
 		$this->category = 'basic';
