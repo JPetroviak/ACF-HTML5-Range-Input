@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ACF HTML5 Range Input\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-03 08:21+0000\n"
+"PO-Revision-Date: 2016-12-03 08:26+0000\n"
+"Last-Translator: thomas <t.meyer@me.com>\n"
+"Language-Team: German\n"
+"Language: de-DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: range.php:6
+msgid "Range"
+msgstr "Bereich"
+
+#: range.php:20
+msgid "Default Value"
+msgstr "Standardwert"
+
+#: range.php:21
+msgid "Appears when creating a new post"
+msgstr "Erscheint bei der Erstellung eines neuen Beitrags"
+
+#: range.php:27
+msgid "Minimum Value"
+msgstr "Mindestwert"
+
+#: range.php:33
+msgid "Maximum Value"
+msgstr "Maximalwert"
+
+#: range.php:39
+msgid "Step Size"
+msgstr "Schrittweite"
+
+#: range.php:45
+msgid "Units"
+msgstr "Einheit"
+
+#: range.php:46
+msgid "Enter the units to measure by"
+msgstr "Maßeinheit für diesen Bereich"
+
+#. Name of the plugin
+msgid "ACF HTML5 Range Input"
+msgstr "ACF HTML5 Range Input"
+
+#. Description of the plugin
+msgid "HTML5 range input for Advanced Custom Fields"
+msgstr "HTML5 range input für Advanced Custom Fields"
+
+#. URI of the plugin
+msgid "https://github.com/prisoner2019/ACF-HTML5-Range-Input"
+msgstr ""
+
+#. Author of the plugin
+msgid "John Petroviak"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.johnpetroviak.com"
+msgstr ""
