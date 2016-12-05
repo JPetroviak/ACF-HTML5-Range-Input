@@ -1,6 +1,6 @@
 .input-helper {
   color: #8E8E93;
-  margin-bottom: 0;
+  margin: 0;
 }
 .range {
   -webkit-appearance: none;
@@ -8,6 +8,7 @@
           appearance: none;
   background-color: transparent;
   margin: 0 0 5px;
+  padding: 0;
   width: 100%;
 }
 .range::-webkit-slider-runnable-track {
