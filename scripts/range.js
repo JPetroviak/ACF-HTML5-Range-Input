@@ -1,9 +1,10 @@
 (function($) {
 	function initialize_field($el) {
 		var slider = $el.find('.range'),
-				units = slider.data('units');
+				units = slider.data('units'),
+				inputHelper = $el.find('.input-helper');
 		this.addEventListener("input", function() {
-			slider.next('.input-helper').text(slider.val() + units);
+			inputHelper.text(slider.val() + units);
 		});
 	}
 

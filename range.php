@@ -11,6 +11,8 @@ class acf_field_range extends acf_field {
 			'max_value' => 100,
 			'step_size' => 1,
 			'units' => "%",
+			'min_label' => '0%',
+			'max_label' => '100%'
 		);
 		parent::__construct();
 	}
@@ -47,14 +49,32 @@ class acf_field_range extends acf_field {
 			'type'			=> 'text',
 			'name'			=> 'units',
 		));
+
+		acf_render_field_setting($field, array(
+			'label'			=> __('Min Label','acf-range'),
+			'instructions'	=> __('Enter a label for the minimum value','acf-range'),
+			'type'			=> 'text',
+			'name'			=> 'min_label',
+		));
+
+		acf_render_field_setting($field, array(
+			'label'			=> __('Max Label','acf-range'),
+			'instructions'	=> __('Enter a label for the maximum value','acf-range'),
+			'type'			=> 'text',
+			'name'			=> 'max_label',
+		));
 	}
 
 	function render_field($field) {
 		$default = (intval($field['default_value']) < intval($field['min_value'])) ? intval($field['default_value']) : intval($field['min_value']);
 		$value = (isset($field['value'])) ? intval($field['value']) : $default;
 		?>
-		<input id="range" class="range" type="range" name="<?php echo $field['name'] ?>" min="<?php echo $field['min_value'] ?>" max="<?php echo $field['max_value']; ?>" step="<?php echo $field['step_size']; ?>" data-units="<?php echo $field['units']; ?>" value="<?php echo $value; ?>" />
-		<p class="input-helper"><?php echo $value; ?><?php echo $field['units']; ?></p>
+		<p class="input-wrapper">
+			<span class="input-helper"><?php echo $value; ?><?php echo esc_attr($field['units']); ?></span>
+			<span class="range-label"><?php echo esc_attr($field['min_label']); ?></span>
+			<input id="range" class="range" type="range" name="<?php echo $field['name'] ?>" min="<?php echo $field['min_value'] ?>" max="<?php echo $field['max_value']; ?>" step="<?php echo $field['step_size']; ?>" data-units="<?php echo $field['units']; ?>" value="<?php echo $value; ?>" />
+			<span class="range-label"><?php echo esc_attr($field['max_label']); ?></span>
+		</p>
 		<?php
 	}
 
