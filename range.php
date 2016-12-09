@@ -60,7 +60,7 @@ class acf_field_range extends acf_field {
 
 	function input_admin_enqueue_scripts() {
 		$directory = plugin_dir_url(__FILE__);
-		wp_enqueue_style('range-styles', $directory . 'styles/range.css', '', $this->version);
+		wp_enqueue_style('range-styles', $directory . 'styles/range.css', array('acf-input'), $this->version);
 		wp_enqueue_script('range-scripts', $directory . 'scripts/range.js', array('jquery'), $this->version, false);
 	}
 
