@@ -74,6 +74,9 @@
   -webkit-transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out, box-shadow 200ms ease-in-out;
   transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out, box-shadow 200ms ease-in-out;
   width: 100%;
+  background: transparent;
+  border-color: transparent;
+  border-width: 0;
 }
 .range::-ms-fill-lower {
   background-color: transparent;
